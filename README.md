@@ -64,7 +64,6 @@ This project focuses on performing sentiment analysis on tweets using classic Na
 
 ## ✨ Future Improvements
 
-- Use deep learning models like **LSTM** or **Bangla-BERT** (for Bangla tweets)
 - Integrate real-time Twitter scraping using Tweepy
 - Deploy the model using Streamlit for interactive UI
 
