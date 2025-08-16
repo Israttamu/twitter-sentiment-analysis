@@ -62,10 +62,6 @@ This project focuses on performing sentiment analysis on tweets using classic Na
 
 ---
 
-## ✨ Future Improvements
-
-- Integrate real-time Twitter scraping using Tweepy
-- Deploy the model using Streamlit for interactive UI
 
 ---
 
