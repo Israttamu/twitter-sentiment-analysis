@@ -33,7 +33,8 @@ This project focuses on analyzing **Twitter data** to predict the sentiment (pos
 - Jupyter Notebook  
 
 ## 📂 Dataset
-The dataset used in this project is available on **Kaggle Twitter Sentiment datasets**.  
+The dataset used in this project is the **[Twitter Sentiment Analysis (Sentiment140)](https://www.kaggle.com/datasets/kazanova/sentiment140)** dataset available on Kaggle.  
+
 
 ## 🚀 How to Run
 1. Clone the repository  
