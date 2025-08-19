@@ -1,71 +1,41 @@
-
-# 🐦 Twitter Sentiment Analysis using NLP
-
-This project focuses on performing sentiment analysis on tweets using classic Natural Language Processing (NLP) techniques. The goal is to classify tweets into **Positive**, **Negative**, or **Neutral** sentiments using machine learning models.
-
----
+# 🐦 Twitter Sentiment Analysis | NLP & Machine Learning
 
 ## 📌 Project Overview
+This project focuses on analyzing **Twitter data** to predict the sentiment (positive/negative) of tweets using Natural Language Processing (NLP) and Machine Learning.
 
-- 💬 Preprocesses raw tweet text (cleaning, tokenization, stopword removal)
-- 🔍 Extracts features using **TF-IDF vectorization**
-- 🧠 Trains a **Logistic Regression classifier**
-- 📈 Evaluates the model using accuracy, classification report, and confusion matrix
+## 🔑 Key Steps
+- **Data Collection**  
+  - Fetched Twitter dataset via Kaggle API  
 
----
+- **Data Preprocessing**  
+  - Cleaned and tokenized tweet text  
+  - Removed stopwords and special characters  
 
-## 🗂️ Files
+- **Feature Engineering**  
+  - Converted textual data into numerical form using **TF-IDF vectorization**  
 
-- `twitter_sentiment_analysis.ipynb`: Main Google Colab Notebook with all code and output.
----
+- **Model Training**  
+  - Trained a **Logistic Regression** classifier  
+  - Evaluated the model using accuracy score, classification report, and confusion matrix  
 
-## ⚙️ Technologies Used
+- **Model Deployment Ready**  
+  - Saved the trained model for future predictions  
 
-- **Python 3**
-- **Pandas, NumPy** – data processing
-- **Scikit-learn** – ML model
-- **NLTK** – text cleaning and tokenization
----
+## 📊 Results
+- Achieved strong accuracy in classifying tweets as **Positive** or **Negative**.  
+- Logistic Regression provided a reliable baseline for sentiment classification.  
 
-## 🚀 How to Run the Project
+## 🛠️ Tech Stack
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- NLTK / text preprocessing  
+- Jupyter Notebook  
 
-1. Clone the repository:
+## 📂 Dataset
+The dataset used in this project is available on **Kaggle Twitter Sentiment datasets**.  
+
+## 🚀 How to Run
+1. Clone the repository  
    ```bash
-   git clone https://github.com/Israttamu/twitter-sentiment-analysis.git
-   cd twitter-sentiment-analysis
-   ```
-
-2. (Optional) Create a virtual environment and activate it:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # For Linux/Mac
-   venv\Scripts\activate     # For Windows
-   ```
-
-3. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Open the notebook:
-   ```bash
-   jupyter notebook
-   ```
-
-5. Run the cells in order to see results.
-
----
-
-## 📊 Example Output
-
-![Confusion Matrix](confusion_matrix.png)
-
----
-
-
----
-
-## 🙋‍♀️ Author
-
-**Israt Tamanna**  
-📧 israttamanna39@gmail.com
+   git clone https://github.com/yourusername/twitter-sentiment-analysis.git
