@@ -22,8 +22,17 @@ This project focuses on analyzing **Twitter data** to predict the sentiment (pos
   - Saved the trained model for future predictions  
 
 ## 📊 Results
-- Achieved strong accuracy in classifying tweets as **Positive** or **Negative**.  
+- Accuracy on **training data**: `79.87%`  
+- Accuracy on **test data**: `77.67%`  
 - Logistic Regression provided a reliable baseline for sentiment classification.  
+- Text preprocessing and TF-IDF features significantly improved prediction performance.
+- 
+## 📈 Visualizations
+The notebook also includes charts for:  
+- **Confusion Matrix** – to visualize classification performance
+
+*(Example:)*  
+![Confusion Matrix](images/confusion_matrix.png) 
 
 ## 🛠️ Tech Stack
 - Python  
