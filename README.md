@@ -32,7 +32,7 @@ The notebook also includes charts for:
 - **Confusion Matrix** – to visualize classification performance
 
 *(Example:)*  
-![Confusion Matrix](images/confusion_matrix.png) 
+![Confusion Matrix](confusion_matrix.png) 
 
 ## 🛠️ Tech Stack
 - Python  
